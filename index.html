@@ -1,0 +1,122 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset = "UFT-8">
+        <title>Yifeng Zheng - Coding Portfolio</title>
+        <link rel="stylesheet" href = "style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="menu">
+            <a href="#home">Home</a>
+            <div class="nav-right">
+                <a href="#about">About Me</a>
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">My Work</a>
+                <a href="#contact">Contact Me</a>
+            </div>  
+        </div>
+        <div class="content">
+            <section id="home" class="home1">
+                <h1>Yifeng Zheng</h1>
+                <hr>
+                <h3>Programmer</h3>
+            </section>
+            <section id="about" class="about1">
+                <h1>About Me</h1>
+                <hr class="about-break">
+                <hr width="40%">
+                <div class="row">
+                    <div class="column1">
+                    <img src = "profile_pic.jpg" width="350" height="400" style = "margin-left: 350px;">
+                    </div>
+                    <div class="column2">
+                      <h2>Who Am I?</h2>
+                      <p>I am an innately curious programmer who has interests in many fields of computer science. With my growth mindset, I
+                          tackle my problems analytically and structurally. Failures are embraced. I program websites, games, and data structured software.  </p>
+                    </div>
+                    <div class="column3">
+                        <h2>Personal Interest</h2>
+                        <p>On my off time, I like to<br>
+                            - read light novels<br>
+                            - practice piano<br>
+                            - learn chinese</p>
+                      </div>
+                  </div>
+            </section>
+            <section id="education" class="education1">
+                <h1>Education</h1>
+                <hr class="education-break">
+                <img src="Brooklyn_College.png" width = "300" height="300" style = "margin-left: 42%; margin-bottom: 2%;">
+                <h2>Brooklyn College</h2>
+                <h3>Bachelor of Science in Computer Science</h3>
+                <p>In Brooklyn College, I studied Computer Science. Here I gained and developed my knowledge in multiple languages, data structures, and operating systems.</p>
+                <P>Graduation: Spring 2023</P>
+            </section>
+            <section id="skills" class="skills1">
+                <h1>Skills</h1>
+                <hr>
+                <img src="Java.png" title= "Java" class="java">
+                <img src="JavaScript.png" title="JavaScript" class="js">
+                <img src="HTML5.png" title="HTML" class="html">
+                <img src="CSS3.png" title="CSS" class="css">
+                <p>Usually, I code programs and algorithms in Java. Occasionally when I build websites and games, I use HTML5, JS, and CSS.</p>
+            </section>
+            <section id="experience" class="experience1">
+                <h1>Experiece</h1>
+                <hr>
+                <a href="ZhengYifengResume.pdf" target="_blank"><img src="experience.png"></a>
+                <p>While there isn't relevant work experience yet, I hope I can be given a chance to prove myself.</p>
+                <P>Click Image Above for Resume</P>
+            </section>
+            <section id="projects" class="project1">
+                <h1>Some of my Projects</h1>
+                <hr>
+                <div class= "row2">
+                    <div class="column4">
+                        <a href="https://github.com/yifzheng/CISC-3130/tree/master/Lab_6" target="_blank"><button class="button"><h2> Project #1</h2></button></a>
+                        <p>The project, written in Java, is my implementation of a grade calculator. As there is no gui, this program is a user to console interaction.
+                            Users are prompted to enter their grade percentages for each category and the program will calculate the minimum grade needed to achieve the grade
+                            the user inputted. 
+                        </p>
+                    </div>
+                    <div class="column5">
+                        <a href="https://github.com/yifzheng/CISC-3130/tree/master/Lab_5" target="_blank"><button class="button"><h2> Project #2</h2></button></a>
+                        <P>This project, written in Java, is an implementation of the Binary Search Tree to Store data extracted from multiple csv files. The data is then
+                            processed and an export file is made listing the data in alphabetical order. For more information on the project, click the button. 
+                        </P>
+                    </div>
+                    <div class="column6">
+                        <a href="https://github.com/yifzheng/CISC-3130/tree/master/Lab_4" target="_blank"><button class="button"><h2> Project #3</h2></button></a>
+                        <p>The purpose of this project is to work with multiple input files. A fiscal quarter worth of csv files were used.
+                            Data from each file was extracted and placed into a global queue/linkedlist structure to be processed later. Click button for more information.</p>
+                    </div>
+                    <div class="column7">
+                        <a href="https://github.com/yifzheng/CISC-3130" target="_blank"><button class="button"><h2>Other Projects</h2></button></a>
+                        <p>For more of my data structure projects, click the button above</p>
+                    </div>
+                </div>
+            </section>
+            <section id="contact" class="contact1">
+                <h1>Contact Me</h1>
+                <hr>
+                <a href="https://www.facebook.com/yifeng.zheng.75/" target="_blank" class="fa fa-facebook"></a>
+                <a href="https://www.linkedin.com/in/yifeng-zheng-247173142/" target="_blank" class="fa fa-linkedin"></a>
+                <hr class="email">
+                <h2>yifengzheng.nyc@gmail.com</h2>
+                <hr class="email">
+            </section>
+        </div>
+        <script type = "text/javascript">
+            $(function(){
+                $(".menu a").on('click', function(){
+                    $("html", "body").animate({
+                        scrollTop: $($.attr(this, 'href')).offset().top
+                    }, 500);
+                });
+            });
+        </script>
+    </body>
+</html>

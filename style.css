@@ -1,0 +1,386 @@
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu {
+   position: fixed;
+   align-items: center;
+   background-image: url('great-wall.jpg');
+   width: 100%;
+}
+.menu a{
+    float: left;
+    color: azure;
+    text-align: center;
+    padding: 20px 30px;
+    display: flex;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 24px;
+}
+.nav-right {
+    float: right;
+}
+section{
+    display: inline-block;
+    width: 100%;
+    height: 100vh;
+    background-color: azure; 
+}
+.education1,.experience1, .contact1{
+    background-color: aliceblue;
+}
+.home1{
+    background-image: url('great-wall.jpg');
+}
+.home1 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 350px;
+    font-size: 5em;
+    padding: 0%;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home1 h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    padding: 0%;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+}
+hr{
+    height:3px; 
+    border:none; 
+    color:azure; 
+    background-color: azure;
+    width:30%; 
+    text-align:center; 
+    margin: 0 auto;
+}
+.about-break{
+    height:3px; 
+    border:none; 
+    background-color: rgb(81, 151, 151);
+    width: 25%; 
+    text-align:center; 
+    margin-top: 0;
+    margin-bottom: 4%;
+}
+.about1 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    font-weight: 300;
+    margin-top: 7%;
+    margin-bottom: 1%;
+    padding: 0%;
+    color: rgb(81, 151, 151); 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.column1 {
+    float: left;
+    width: 40%;
+    padding: 10px;
+    background-color: azure;
+}
+.column2 {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background-color: azure;
+}
+.column2 h2{
+    font-size: 36px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(81, 151, 151);
+}
+.column2 p{
+    margin-top: 10%;
+    font-size: 20px;
+    color: rgb(81, 151, 151);
+}
+.column3 h2{
+    font-size: 36px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(81, 151, 151);
+}
+.column3 p{
+    margin-top: 10%;
+    font-size: 20px;
+    color: rgb(81, 151, 151);
+}
+.column3 {
+    margin-left: 2%;
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background-color: azure;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.education1 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    font-weight: 300;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    padding: 0%;
+    color: rgb(81, 151, 151); 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.education-break{
+    height:3px; 
+    border:none; 
+    background-color: rgb(81, 151, 151);
+    width: 25%; 
+    text-align:center; 
+    margin-top: 0;
+    margin-bottom: 4%;
+}
+.education1 h2{
+    text-align: center;
+    margin-top: 1%;
+    color: rgb(81, 151, 151); 
+}
+.education1 h3{
+    text-align: center;
+    margin-top: 1%;
+    color: rgb(81, 151, 151); 
+}
+.education1 p{
+    text-align: center;
+    margin-top: 2%;
+    font-weight: 500;
+    color: rgb(81, 151, 151); 
+}
+.skills1 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    font-weight: 300;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    padding: 0%;
+    color: rgb(81, 151, 151); 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.skills1 hr{
+    height:3px; 
+    border:none; 
+    background-color: rgb(81, 151, 151);
+    width: 25%; 
+    text-align:center; 
+    margin-top: 0;
+    margin-bottom: 4%;
+}
+.java{
+    width: 300px;
+    height: 300px;
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-right: 20px;
+    align-content: center;
+}
+.js{
+    width: 400px;
+    height: 300px;
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-right: 20px;
+    align-content: center;
+}
+.html{
+    width: 300px;
+    height: 300px;
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-right: 20px;
+    align-content: center;
+}
+.css{
+    width: 300px;
+    height: 300px;
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-right: 20px;
+    align-content: center;
+}
+.skills1 p{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 25px;
+    color: rgb(81, 151, 151); 
+}
+.experience1 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    font-weight: 300;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    padding: 0%;
+    color: rgb(81, 151, 151); 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.experience1 hr{
+    height:3px; 
+    border:none; 
+    background-color: rgb(81, 151, 151);
+    width: 25%; 
+    text-align:center; 
+    margin-top: 0;
+    margin-bottom: 4%;
+}
+.experience1 img{
+    margin-left: 34%;
+    margin-top: 1%;
+    border: 2px solid rgb(81, 151, 151);
+}
+.experience1 p{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 27px;
+    color: rgb(81, 151, 151); 
+}
+.column4{
+    float: left;
+    width: 25%;
+    padding: 10px;
+    background-color: azure;
+   
+}
+.column4 h2{
+    text-decoration: none;
+}
+.column5 {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    background-color: azure;
+}
+.column6 {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    background-color: azure;
+}
+.column7 {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    background-color: azure;
+}
+.project1 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    font-weight: 300;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    padding: 0%;
+    color: rgb(81, 151, 151); 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.project1 hr{
+    height:3px; 
+    border:none; 
+    background-color: rgb(81, 151, 151);
+    width: 25%; 
+    text-align:center; 
+    margin-top: 0;
+    margin-bottom: 4%;
+}
+.row2 h2{
+    text-align: center;
+    color: rgb(81, 151, 151); 
+}
+.button{
+    text-align: center;
+    background-color: rgb(60, 109, 109);
+    color: azure;
+    padding: 10px;
+    text-decoration: none;
+    margin-left: 38%;
+}
+.row2 p{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 27px;
+    color: rgb(81, 151, 151);
+    line-height: 1.8;
+}
+.contact1 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    font-weight: 300;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    padding: 0%;
+    color: rgb(81, 151, 151); 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact1 hr{
+    height:3px; 
+    border:none; 
+    background-color: rgb(81, 151, 151);
+    width: 25%; 
+    text-align:center; 
+    margin-top: 0;
+    margin-bottom: 4%;
+}
+.fa {
+    padding: 65px;
+    font-size: 80px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 10%;
+    margin-bottom: 4%;
+    border-radius: 50%;
+  }
+  
+.fa:hover {
+    opacity: 0.7;
+}
+  
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin-left: 37%;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.contact1 h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-weight: 300;
+    margin-bottom: 3%;
+    padding: 0%;
+    color: rgb(81, 151, 151); 
+    font-family: Arial, Helvetica, sans-serif;
+}
